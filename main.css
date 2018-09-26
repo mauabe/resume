@@ -1,0 +1,22 @@
+p {color: rgb(0, 0, 0);
+font-family: Oswald 200;
+}
+
+h1 {font-size: 60px}
+h3 {font-size: 22px}
+h4 {font-size: 18px}
+h5 {font-size: 13px}
+
+.contact {font-size: 15px}
+.list {color: rgb(0, 0, 0);}
+
+a:link { color: rgb(38, 72, 158);}
+a:hover{color: rgb(37, 95, 240);}
+
+div {
+  color: rgb(75, 92, 134);
+  font-family: Oswald;
+  background-color: rgb(250, 253, 253);
+  padding: 60px;
+  
+}
