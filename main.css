@@ -7,16 +7,30 @@ h3 {font-size: 22px}
 h4 {font-size: 18px}
 h5 {font-size: 13px}
 
+hr {
+  margin:1px 0;
+  height:1px;
+  background:
+    repeating-linear-gradient(to right, rgb(55, 81, 145) 0,  rgb(55, 81, 145) 10px,transparent 10px,transparent 14px) 
+}
+
+.line {
+  margin:5px 0;
+  height:2px;
+  background:
+    repeating-linear-gradient(to right, rgb(55, 81, 145) 0, rgb(55, 81, 145) 10px,transparent 10px,transparent 12px)
+    /*10px red then 2px transparent -> repeat this!*/
+}
 .contact {font-size: 15px}
 .list {color: rgb(0, 0, 0);}
 
-a:link { color: rgb(38, 72, 158);}
+a:link { color:  rgb(55, 81, 145);}
 a:hover{color: rgb(37, 95, 240);}
 
 div {
-  color: rgb(75, 92, 134);
+  color:  rgb(55, 81, 145);
   font-family: Oswald;
   background-color: rgb(250, 253, 253);
   padding: 60px;
-  
+
 }
